@@ -75,7 +75,7 @@ object RawUpdater : GroupUpdater() {
             val candidateUas = linkedSetOf<String>().apply {
                 if (!preferredUa.isNullOrBlank()) add(preferredUa)
                 add("OwnXray/1.0.1")
-                add("Xray/v26.9.9")
+                add("Xray/v26.7.28")
                 add("v2rayN/7.8.2")
                 add("v2rayNG/1.8.35")
             }

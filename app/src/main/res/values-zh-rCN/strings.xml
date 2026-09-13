@@ -495,7 +495,7 @@
     <string name="pinned_certchain_sha256">固定证书链散列</string>
     <string name="menu_dashboard">Xray 仪表盘</string>
     <string name="core_engine">核心引擎</string>
-    <string name="core_engine_summary">Xray-core v26.9.9</string>
+    <string name="core_engine_summary">Xray-core v26.7.28</string>
     <string name="nav_header_subtitle">搭载官方原生 Xray 核心 · 全新自主研发</string>
     <string name="custom_outbound_json">自定义出站 JSON</string>
     <string name="custom_config_json">自定义配置 JSON</string>

@@ -20,7 +20,7 @@ go mod tidy || exit 1
 
 XRAY_VERSION=$(grep '^XRAY_VERSION=' ../nb4a.properties | head -n1 | cut -d'=' -f2 | tr -d '\r[:space:]')
 if [ -z "$XRAY_VERSION" ]; then
-  XRAY_VERSION="v26.9.9"
+  XRAY_VERSION="v26.7.28"
 fi
 
 SINGBOX_VERSION=$(grep '^SINGBOX_VERSION=' ../nb4a.properties | head -n1 | cut -d'=' -f2 | tr -d '\r[:space:]')

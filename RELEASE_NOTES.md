@@ -1,7 +1,7 @@
 # OwnXray v1.0.1 预览版
 
-- ⚡ **内核升级至最新 Xray-core v26 稳定版 (v26.9.9)**：
-  - 核心引擎升级至官方最新稳定版 Xray-core v26.9.9，深度支持 VLESS (Vision 流控 / REALITY)、XHTTP、VMess、Trojan、Shadowsocks 等官方全套协议栈；
+- ⚡ **内核升级至最新 Xray-core v26 稳定版 (v26.7.28)**：
+  - 核心引擎升级至官方最新稳定版 Xray-core v26.7.28，深度支持 VLESS (Vision 流控 / REALITY)、XHTTP、VMess、Trojan、Shadowsocks 等官方全套协议栈；
 - 🎨 **全新自主研发 UI 界面与交互美学**：
   - 彻底废除旧版布局体系，采用全新自主研发的 Material 3 现代化卡片式设计与纯净动效；
   - 侧边栏抽屉全面升级，新增 OwnXray 原生品牌专属 Header；
