@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory app:title="@string/balancer_settings">
+
+        <EditTextPreference
+            app:key="profileName"
+            app:title="@string/profile_name"
+            app:useSimpleSummaryProvider="true" />
+
+        <moe.matsuri.nb4a.ui.SimpleMenuPreference
+            app:defaultValue="0"
+            app:entries="@array/balancer_type_entries"
+            app:entryValues="@array/balancer_type_values"
+            app:key="balancerType"
+            app:title="@string/balancer_type"
+            app:useSimpleSummaryProvider="true" />
+
+        <Preference
+            app:key="balancerTargetGroup"
+            app:title="@string/balancer_select_group" />
+
+        <moe.matsuri.nb4a.ui.SimpleMenuPreference
+            app:defaultValue="random"
+            app:entries="@array/balancer_strategy_entries"
+            app:entryValues="@array/balancer_strategy_values"
+            app:key="balancerStrategy"
+            app:title="@string/balancer_strategy"
+            app:useSimpleSummaryProvider="true" />
+
+        <EditTextPreference
+            app:key="balancerTestUrl"
+            app:title="@string/balancer_custom_url"
+            app:useSimpleSummaryProvider="false" />
+
+        <EditTextPreference
+            app:defaultValue="300"
+            app:key="balancerInterval"
+            app:title="@string/balancer_interval"
+            app:useSimpleSummaryProvider="false" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
