@@ -3,6 +3,7 @@
 source "buildScript/init/env.sh"
 export CGO_ENABLED=1
 export GO386=softfloat
+export GOTOOLCHAIN=auto
 
 cd libcore
 rel=1 ./build.sh || exit 1

@@ -15,6 +15,7 @@ if [ -z "$GOPATH" ]; then
 fi
 
 # 在编译时锁定singbox侧依赖
+export GOTOOLCHAIN=auto
 go mod tidy || exit 1
 
 XRAY_VERSION=$(grep '^XRAY_VERSION=' ../nb4a.properties | head -n1 | cut -d'=' -f2 | tr -d '\r[:space:]')
