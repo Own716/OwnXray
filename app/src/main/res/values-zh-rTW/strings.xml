@@ -434,7 +434,8 @@
     <string name="packet_encoding">封包編碼</string>
     <string name="menu_dashboard">Xray 儀表盤</string>
     <string name="core_engine">核心引擎</string>
-    <string name="core_engine_summary">Xray-core v25.1.30</string>
+    <string name="core_engine_summary">Xray-core v26.9.9</string>
+    <string name="nav_header_subtitle">搭載官方原生 Xray 核心 · 全新自主研發</string>
     <string name="action_copy">複製</string>
     <string name="action_open">開啟</string>
     <string name="update_all_subscription">更新所有訂閱</string>

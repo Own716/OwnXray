@@ -25,7 +25,8 @@
     <string name="menu_traffic">Traffic</string>
     <string name="menu_dashboard">Xray Dashboard</string>
     <string name="core_engine">Core Engine</string>
-    <string name="core_engine_summary">Xray-core v25.1.30</string>
+    <string name="core_engine_summary">Xray-core v26.9.9</string>
+    <string name="nav_header_subtitle">Native Xray Core Proxy Toolchain</string>
     <!-- externel -->
     <string name="action_copy">Copy</string>
     <string name="action_open">Open</string>

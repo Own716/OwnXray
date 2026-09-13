@@ -74,12 +74,10 @@ object RawUpdater : GroupUpdater() {
 
             val candidateUas = linkedSetOf<String>().apply {
                 if (!preferredUa.isNullOrBlank()) add(preferredUa)
+                add("OwnXray/1.0.1")
+                add("Xray/v26.9.9")
                 add("v2rayN/7.8.2")
-                add("Xray/v25.1.30")
-                add("clash.meta")
-                add("Mihomo/v1.19.30 (Clash.Meta)")
-                add("sing-box/1.14.0")
-                add("ClashforWindows/0.20.39")
+                add("v2rayNG/1.8.35")
             }
 
             var fetchedProxies: List<AbstractBean>? = null
