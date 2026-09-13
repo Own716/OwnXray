@@ -26,10 +26,9 @@ import org.yaml.snakeyaml.DumperOptions
 import org.yaml.snakeyaml.Yaml
 
 /**
- * Mihomo (Clash.Meta) 配置构建器
- * 将 OwnClash 的 ProxyEntity 实体转译为纯正的 Clash YAML 配置，
- * 完整支持所有协议（VLESS-XHTTP、REALITY、Hysteria 2、TUIC、Trojan、Shadowsocks 等）、
- * 完整支持 Sing-box 订阅与配置一键无损转译、
+ * OwnXray 外部配置解析与转译构建器
+ * 将 ProxyEntity 实体及订阅配置转译为标准配置，
+ * 完整支持所有协议（VLESS-XHTTP、REALITY、VMess、Trojan、Shadowsocks 等）、
  * 多节点订阅分组、策略组（SELECT / AUTO / FALLBACK）、自定义配置及分流规则。
  */
 object MihomoConfigBuilder {

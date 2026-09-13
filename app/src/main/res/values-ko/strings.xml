@@ -470,9 +470,9 @@
     <string name="is_outbound_only">설정한 JSON은 아웃바운드입니다</string>
     <string name="save">저장</string>
     <string name="set_panel_url">패널 URL 설정</string>
-    <string name="enable_clash_api">Clash API 활성화</string>
+    <string name="enable_clash_api">로컬 제어 API 활성화</string>
     <string name="log_level">로그 레벨</string>
-    <string name="enable_clash_api_summary">127.0.0.1:9090에서 Clash API와 yacd 대시보드 제공</string>
+    <string name="enable_clash_api_summary">127.0.0.1:9090에서 로컬 제어 API와 대시보드 제공</string>
     <string name="xtls_flow">Flow (VLESS 하위 프로토콜)</string>
     <string name="ads">광고</string>
     <string name="bypass_lan_in_core">코어에서 LAN 바이패스</string>

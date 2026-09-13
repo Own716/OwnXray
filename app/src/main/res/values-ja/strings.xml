@@ -476,9 +476,9 @@
     <string name="is_outbound_only">設定した JSON はアウトバウンドです</string>
     <string name="save">保存</string>
     <string name="set_panel_url">パネル URL を設定</string>
-    <string name="enable_clash_api">Clash API を有効化</string>
+    <string name="enable_clash_api">ローカル制御 API を有効化</string>
     <string name="log_level">ログレベル</string>
-    <string name="enable_clash_api_summary">127.0.0.1:9090 で Clash API と yacd ダッシュボードを提供</string>
+    <string name="enable_clash_api_summary">127.0.0.1:9090 でローカル制御 API とダッシュボードを提供</string>
     <string name="xtls_flow">Flow (VLESS サブプロトコル)</string>
     <string name="ads">広告</string>
     <string name="bypass_lan_in_core">コアで LAN をバイパス</string>

@@ -194,7 +194,7 @@ class TrafficChartActivity : ThemedActivity() {
                             binding.cardConnectionError.visibility = View.VISIBLE
                         } else {
                             binding.chartStatusHint.visibility = View.VISIBLE
-                            binding.chartStatusHint.text = "正在连接 Clash 监控服务 (127.0.0.1:9090)..."
+                            binding.chartStatusHint.text = "正在连接本地监控服务 (127.0.0.1:9090)..."
                         }
                     }
                     // Reconnect attempt

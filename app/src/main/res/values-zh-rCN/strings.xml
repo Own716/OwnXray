@@ -501,8 +501,8 @@
     <string name="is_outbound_only">设置的 JSON 是出站</string>
     <string name="save">保存</string>
     <string name="set_panel_url">设置面板 URL</string>
-    <string name="enable_clash_api">启用控制 API</string>
-    <string name="enable_clash_api_summary">在 127.0.0.1:9090 提供本地控制 API</string>
+    <string name="enable_clash_api">启用本地控制 API</string>
+    <string name="enable_clash_api_summary">在 127.0.0.1:9090 提供本地控制 API 与仪表盘服务</string>
     <string name="xtls_flow">Flow（VLESS 子协议）</string>
     <string name="log_level">日志级别</string>
     <string name="ads">推广</string>
@@ -743,8 +743,8 @@
         <string name="app_icon_dynamic">动态</string>
         <string name="app_icon_light_mode">浅色模式</string>
         <string name="app_icon_dark_mode">深色模式</string>
-        <string name="app_icon_old_nekobox_plus">旧版 NekoBox+</string>
-        <string name="app_icon_nekobox">NekoBox</string>
+        <string name="app_icon_old_nekobox_plus">经典风格</string>
+        <string name="app_icon_nekobox">复古风格</string>
         <string name="app_icon_midnight">午夜</string>
         <string name="app_icon_heavens">天空</string>
         <string name="app_icon_black_white">黑白</string>
@@ -760,7 +760,7 @@
     <string name="traffic_close_all">断开全部</string>
     <string name="traffic_close_all_confirm">确定断开当前所有网络连接吗？</string>
     <string name="traffic_no_connections">暂无活跃连接</string>
-    <string name="traffic_waiting_clash">正在等待 Clash API 连接，请确保 VPN 已启动...</string>
+    <string name="traffic_waiting_clash">正在等待本地控制 API 连接，请确保 VPN 已启动...</string>
     <string name="group_all">全部</string>
     <string name="close">关闭</string>
     <string name="landing_ip_details_title">落地 IP 详情</string>
@@ -876,8 +876,8 @@
     <string name="dashboard_empty_connections">暂无连接数据</string>
     <string name="dashboard_empty_rules">暂无路由规则</string>
     <string name="dashboard_empty_logs">暂无日志输出</string>
-    <string name="dashboard_not_started_title">Clash API 未就绪或服务未启动</string>
-    <string name="dashboard_not_started_desc">请确保已连接 VPN，并且在「设置 - 进阶设置」中已开启「启用 Clash API」。</string>
+    <string name="dashboard_not_started_title">本地控制 API 未就绪或服务未启动</string>
+    <string name="dashboard_not_started_desc">请确保已连接 VPN，并且在「设置 - 进阶设置」中已开启「启用本地控制 API」。</string>
     <string name="dashboard_rules_total">共 %1$d 条路由规则</string>
     <string name="dashboard_log_pause">暂停日志</string>
     <string name="dashboard_log_resume">继续日志</string>
@@ -891,13 +891,13 @@
     <string name="export_standard_link">复制标准链接</string>
     <string name="export_standard_link_sum">兼容通用客户端 (vless://, ss://, vmess:// 等)</string>
     <string name="export_sn_link">复制 SN Link</string>
-    <string name="export_sn_link_sum">Sing-box / Neko 专用链接格式 (sn://)</string>
+    <string name="export_sn_link_sum">通用序列化配置链接 (sn://)</string>
     <string name="export_to_file">导出为配置文件</string>
     <string name="export_to_file_sum">保存当前节点为 .yaml 配置文件</string>
     <string name="share_qr_sum">支持标准格式与 SN Link 双模切换</string>
     <string name="qrcode_format_standard">标准格式</string>
     <string name="qrcode_format_sn">SN Link</string>
     <string name="qrcode_standard_hint">标准协议链接格式（兼容各类通用客户端）</string>
-    <string name="qrcode_sn_hint">Sing-box &amp; Neko 专用序列化链接（sn://）</string>
+    <string name="qrcode_sn_hint">通用序列化配置链接（sn://）</string>
     <string name="copy_current_link">复制链接</string>
 </resources>

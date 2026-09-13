@@ -12,8 +12,8 @@ import org.json.JSONObject
 import java.util.concurrent.TimeUnit
 
 /**
- * Mihomo (Clash.Meta) RESTful & WebSocket API 集中通信客户端
- * 遵循「UI 层 <-> 配置文件 (YAML) <-> Mihomo API」解耦架构，
+ * OwnXray 核心 RESTful & WebSocket API 集中通信客户端
+ * 遵循「UI 层 <-> 核心实例 <-> 本地控制 API」解耦架构，
  * 负责流量监听、节点延迟测试、出站模式切换与热重载。
  */
 object MihomoApiClient {

@@ -187,7 +187,7 @@ class ConnectivityTestActivity : ThemedActivity(), SagerConnection.Callback {
                 iconRes = R.drawable.ic_baseline_http_24,
                 state = TestState.TESTING,
                 statusText = "测速中...",
-                description = "正在通过 sing-box 核心代理链路探测出站 HTTP 延迟..."
+                description = "正在通过 Xray 核心代理链路探测出站 HTTP 延迟..."
             ),
             DimensionItem(
                 id = "google_cn_check",

@@ -504,9 +504,9 @@
     <string name="is_outbound_only">設定的 JSON 是出站</string>
     <string name="save">儲存</string>
     <string name="set_panel_url">設定面板 URL</string>
-    <string name="enable_clash_api">啟用 Clash API</string>
+    <string name="enable_clash_api">啟用本地控制 API</string>
     <string name="log_level">日誌級別</string>
-    <string name="enable_clash_api_summary">在 127.0.0.1:9090 提供 clash api 和 yacd 儀表板</string>
+    <string name="enable_clash_api_summary">在 127.0.0.1:9090 提供本地控制 API 與儀表板服務</string>
     <string name="xtls_flow">Flow（VLESS 子協議）</string>
     <string name="ads">推廣</string>
     <string name="bypass_lan_in_core">在核心中繞過 LAN</string>
@@ -767,8 +767,8 @@
     <string name="dashboard_empty_connections">暫無連線資料</string>
     <string name="dashboard_empty_rules">暫無路由規則</string>
     <string name="dashboard_empty_logs">暫無日誌輸出</string>
-    <string name="dashboard_not_started_title">Clash API 未就緒或服務未啟動</string>
-    <string name="dashboard_not_started_desc">請確保已連線 VPN，並且在「設定 - 進階設定」中已開啟「啟用 Clash API」。</string>
+    <string name="dashboard_not_started_title">本地控制 API 未就緒或服務未啟動</string>
+    <string name="dashboard_not_started_desc">請確保已連線 VPN，並且在「設定 - 進階設定」中已開啟「啟用本地控制 API」。</string>
     <string name="dashboard_rules_total">共 %1$d 條路由規則</string>
     <string name="dashboard_log_pause">暫停日誌</string>
     <string name="dashboard_log_resume">繼續日誌</string>

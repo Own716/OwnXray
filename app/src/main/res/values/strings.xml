@@ -619,9 +619,9 @@
     <string name="is_outbound_only">The JSON set is outbound</string>
     <string name="save">Save</string>
     <string name="set_panel_url">Set panel URL</string>
-    <string name="enable_clash_api">Enable Clash API</string>
+    <string name="enable_clash_api">Enable Local Control API</string>
     <string name="log_level">Log Level</string>
-    <string name="enable_clash_api_summary">Provide clash api and yacd dashboard at 127.0.0.1:9090</string>
+    <string name="enable_clash_api_summary">Provide local control API and dashboard service at 127.0.0.1:9090</string>
     <string name="xtls_flow">Flow (VLESS Sub-protocol)</string>
     <string name="ads">Ads</string>
     <string name="bypass_lan_in_core">Bypass LAN in Core</string>
@@ -826,8 +826,8 @@
         <string name="app_icon_dynamic">Dynamic</string>
         <string name="app_icon_light_mode">Light mode</string>
         <string name="app_icon_dark_mode">Dark mode</string>
-        <string name="app_icon_old_nekobox_plus">Old NekoBox+</string>
-        <string name="app_icon_nekobox" translatable="false">NekoBox</string>
+        <string name="app_icon_old_nekobox_plus">Classic</string>
+        <string name="app_icon_nekobox" translatable="false">Retro</string>
         <string name="app_icon_midnight">Midnight</string>
         <string name="app_icon_heavens">Heavens</string>
         <string name="app_icon_black_white">Black and White</string>
@@ -843,7 +843,7 @@
     <string name="traffic_close_all">Close All</string>
     <string name="traffic_close_all_confirm">Close all active connections?</string>
     <string name="traffic_no_connections">No active connections</string>
-    <string name="traffic_waiting_clash">Waiting for Clash API or VPN not started...</string>
+    <string name="traffic_waiting_clash">Waiting for local control API or VPN not started...</string>
     <string name="group_all">All</string>
     <string name="close">Close</string>
     <string name="landing_ip_details_title">Landing IP Details</string>
@@ -960,8 +960,8 @@
     <string name="dashboard_empty_connections">No Connections</string>
     <string name="dashboard_empty_rules">No Matching Rules</string>
     <string name="dashboard_empty_logs">No Logs</string>
-    <string name="dashboard_not_started_title">Clash API Not Ready or Service Inactive</string>
-    <string name="dashboard_not_started_desc">Please ensure VPN is connected and Enable Clash API is turned on in Advanced Settings.</string>
+    <string name="dashboard_not_started_title">Local Control API Not Ready or Service Inactive</string>
+    <string name="dashboard_not_started_desc">Please ensure VPN is connected and \"Enable Local Control API\" is turned on in Advanced Settings.</string>
     <string name="dashboard_rules_total">%1$d route rules in total</string>
     <string name="dashboard_log_pause">Pause Logs</string>
     <string name="dashboard_log_resume">Resume Logs</string>
@@ -970,14 +970,14 @@
     <string name="export_standard_link">Copy Standard Link</string>
     <string name="export_standard_link_sum">Compatible with general clients (vless://, ss://, etc.)</string>
     <string name="export_sn_link">Copy SN Link</string>
-    <string name="export_sn_link_sum">Dedicated link format for Sing-box &amp; Neko (sn://)</string>
+    <string name="export_sn_link_sum">Universal serialized profile link (sn://)</string>
     <string name="export_to_file">Export to File</string>
     <string name="export_to_file_sum">Save node configuration as a .yaml file</string>
     <string name="share_qr_sum">Supports switching between Standard and SN Link formats</string>
     <string name="qrcode_format_standard">Standard</string>
     <string name="qrcode_format_sn">SN Link</string>
     <string name="qrcode_standard_hint">Standard URI format (compatible with general clients)</string>
-    <string name="qrcode_sn_hint">Sing-box &amp; Neko dedicated serialized link (sn://)</string>
+    <string name="qrcode_sn_hint">Universal serialized profile link (sn://)</string>
     <string name="copy_current_link">Copy Link</string>
     <string name="action_qr_code">QR Code</string>
     <string name="action_export_clipboard_menu">Export to Clipboard</string>

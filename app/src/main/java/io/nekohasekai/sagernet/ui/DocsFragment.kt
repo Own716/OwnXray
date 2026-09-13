@@ -662,7 +662,7 @@ class DocsFragment : ToolbarFragment(R.layout.layout_docs) {
                 category = "进阶设置",
                 title = "日志级别 (logLevel)",
                 badge = "推荐: warn 或 error",
-                desc = "控制 sing-box 内核运行日志输出的详细程度（none / error / warn / info / debug / trace）。",
+                desc = "控制 Xray 内核运行日志输出的详细程度（none / error / warn / info / debug / trace）。",
                 prosCons = "【利】warn 或 error 模式下日志极简安静，零磁盘 I/O，最大化节省内存与电量；【弊】设为 debug/trace 会产生庞大日志流，在大流量下载时会剧烈卡顿拖慢速度。",
                 recommendation = "【最稳推荐：日常使用设为 warn 或 error】日常使用切忌常驻开启 debug/trace！",
                 keywords = "日志 log level debug trace warn error",
@@ -701,12 +701,12 @@ class DocsFragment : ToolbarFragment(R.layout.layout_docs) {
         allItems.add(
             DocListItem.Item(
                 category = "侧边栏网络工具",
-                title = "Sing-box 仪表盘 (menu_dashboard)",
+                title = "Xray 仪表盘 (menu_dashboard)",
                 badge = "核心工具",
-                desc = "深度集成 Sing-box Clash API (127.0.0.1:9090) 的原生实时数据仪表盘。需在「设置 - 进阶设置」中开启「启用 Clash API」后方在侧边栏显示。提供活跃连接与历史关闭连接的多维排序（时间、速率、上传、下载、主机）、正则/关键字实时过滤、单条/批量断开、实时上行下行速率统计，并内置路由规则（Rules）与实时日志（Logs）流式查看面板。",
+                desc = "深度集成 Xray 本地控制 API (127.0.0.1:9090) 的原生实时数据仪表盘。需在「设置 - 进阶设置」中开启「启用本地控制 API」后方在侧边栏显示。提供活跃连接与历史关闭连接的多维排序（时间、速率、上传、下载、主机）、正则/关键字实时过滤、单条/批量断开、实时上行下行速率统计，并内置路由规则（Rules）与实时日志（Logs）流式查看面板。",
                 prosCons = "【利】毫秒级捕获每个应用与域名的连接、路由与流量，一键排查跑流量元凶与规则命中走向；【弊】高频轮询（如 1 秒）会增加微量 CPU 运算，离开仪表盘页面会自动停止轮询以保障续航。",
-                recommendation = "【推荐：按需开启】日常在进阶设置中开启 Clash API，连接异常或需要监控抓包时随时从侧边栏进入仪表盘查看。",
-                keywords = "仪表盘 仪表板 sing-box clash api 活跃连接 连接 规则 日志 监控 抓包 menu_dashboard",
+                recommendation = "【推荐：按需开启】日常在进阶设置中开启本地控制 API，连接异常或需要监控抓包时随时从侧边栏进入仪表盘查看。",
+                keywords = "仪表盘 仪表板 xray 本地控制 api 活跃连接 连接 规则 日志 监控 抓包 menu_dashboard",
             )
         )
         allItems.add(
