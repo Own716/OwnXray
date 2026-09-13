@@ -104,7 +104,7 @@ jobs:
           fi
           echo "Using apksigner: $APKSIGNER"
 
-          APK=$(find app/build/outputs/apk -name '*arm64-v8a*.apk')
+          APK=$(find app/build/outputs/apk -name '*arm64-v8a*.apk' | head -n 1)
           APK_DIR=$(dirname $APK)
 
           echo "Signing APKs in $APK_DIR..."
